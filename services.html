@@ -1,0 +1,1115 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> PERUMENTORS | Líderes en Transporte Turismo del Perú  </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+	<!-- CSS here -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/css/gijgo.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/themify-icons.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+.full-width-section {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden; /* Para recortar el contenido que sobresale */
+  }
+
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .video-container iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .background-image {
+    position: relative;
+    z-index: 0;
+    pointer-events: none;
+  }
+          input[type="date"],
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: -20px;
+    width: 95%;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  /* Estilo específico para el input de fecha */
+  input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+  }
+#toggleForm {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#toggleForm i {
+    margin-bottom: 5px;
+}
+
+#toggleForm span {
+    font-size: 12px; /* Tamaño del texto */
+    font-weight: 400; /* Grosor del texto */
+}
+
+  .form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 600px; /* Aumento del alto del formulario */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 2;
+    text-align: center; /* Centrar contenido */
+}
+
+.form-container.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.form-container .logo {
+    margin-bottom: 20px; /* Espacio entre logo y formulario */
+}
+
+.form-container .welcome-message {
+    background-color: #e3b04b;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-container .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Aumento del espacio entre filas */
+}
+
+.dropdown {
+    width: 48%;
+    position: relative;
+}
+
+.dropdown select {
+    width: calc(100% - 20px); /* Ajuste para tener espacio para la barra de desplazamiento */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: auto; /* Agregar barra de desplazamiento horizontal */
+}
+
+.form-container input[type="date"] {
+    width: calc(100% - 20px); /* Ajuste para tener espacio para la barra de desplazamiento */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-container button {
+    width: 48%; /* Ancho ajustado para centrarlo */
+    padding: 10px;
+    background-color: #e3b04b;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #d39e3f;
+}
+
+.form-container .icons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container .icons i {
+    margin: 5px;
+    font-size: 24px;
+    color: #333;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+#toggleForm {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    background-color: #e3b04b;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+}
+
+#toggleForm:hover {
+    background-color: #d39e3f;
+}
+
+#toggleForm .text {
+    display: none;
+}
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Ancho del círculo */
+    height: 40px; /* Altura del círculo */
+    margin-right: 30px; /* Ajuste el margen derecho para mover los círculos hacia la izquierda */
+    border: 2px solid #fff;
+    border-radius: 50%; /* Esto hace que el borde tenga forma de círculo */
+    padding: 0; /* Eliminamos el padding para que el círculo sea exactamente de 40x40px */
+    transition: background-color 0.3s ease; /* Transición para un efecto suave */
+}
+
+.footer-social a i {
+    color: #fff; /* Esto asegura que el ícono sea blanco */
+    margin-left: -25px
+}
+
+        /* Ajuste del tamaño del botón y la sombra */
+.slide-full-content .btn {
+    font-size: 20px; /* Ajusta el tamaño del texto del botón */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Añade sombra al texto */
+}
+
+.slide-full {
+        background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir completamente el contenedor */
+        background-position: center; /* Centra la imagen de fondo dentro del contenedor */
+    }
+    .services-caption {
+            transition: all 0.3s ease;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+        }
+        .services-caption:hover {
+            transform: scale(1.1); /* Escala al 110% cuando se pasa el cursor sobre el elemento */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra alrededor del elemento */
+        }  
+        .logo img {
+            width: 250px; /* Puedes ajustar el valor según el tamaño deseado */
+            height: auto; /* Para mantener la proporción de la imagen */
+        }
+    .slider-area2a {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .slider-height2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px; /* Altura predeterminada */
+    }
+
+    .slider-height2 img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Media query para dispositivos móviles */
+    @media screen and (max-width: 767px) {
+        .slider-height2 {
+            height: 200px; /* Altura ajustada para móviles */
+        }
+    }
+.service-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Agregar borde redondeado */
+}
+
+.service-img {
+    position: relative;
+    width: 100%;
+    height: 300px; /* ajusta según necesites */
+    overflow: hidden;
+    border-radius: 30px; /* Agregar borde redondeado */
+}
+
+.service-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    transition: width 0.5s ease, height 0.5s ease, filter 1.5s ease; /* Agregar transición para un efecto suave */
+}
+
+.service-box:hover .service-img img {
+    width: 110%; /* Ajustar el ancho al 110% */
+    height: 110%; /* Ajustar la altura al 110% */
+}
+
+
+
+
+.service-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    color: white; /* Color blanco para el texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade un efecto de sombra */
+    transition: font-size 0.3s ease, text-shadow 0.3s ease; /* Agrega transición para un efecto suave */
+}
+
+.service-box:hover .service-title {
+    font-size: 28px; /* Ajusta el tamaño de la fuente al pasar el cursor */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Ajusta el efecto de sombra al pasar el cursor */
+}
+
+    </style>
+</head>
+
+<body>
+        <!-- ? Preloader Start -->
+        <div id="preloader-active">
+            <div class="preloader d-flex align-items-center justify-content-center">
+                <div class="preloader-inner position-relative">
+                    <div class="preloader-circle"></div>
+                    <div class="preloader-img pere-text">
+                        <img src="assets/img/logo/loder.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    <button id="toggleForm">
+        <i class="fas fa-shopping-cart fa-2x"></i>
+        Comprar
+    </button>
+    
+
+    <div class="form-container" id="contactForm">
+        <span class="close-btn">&times;</span>
+        <img src="assets/img/logo/loder.png" alt="Logo" class="logo" width="250px">
+        <br>    <br>
+        <div class="welcome-message">Bienvenidos a Perumentors, donde tendrás la mejor experiencia</div>
+        <br>  
+        <div class="row">
+            <div class="dropdown"  style="margin-left: 60px;">
+                <select name="origen" id="origenSelect">
+                    <option value="">Origen</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Ancash">Ancash</option>
+                    <option value="Apurimac">Apurimac</option>
+                    <option value="Arequipa">Arequipa</option>
+                    <option value="Ayacucho">Ayacucho</option>
+                    <option value="Cajamarca">Cajamarca</option>
+                    <option value="Callao">Callao</option>
+                    <option value="Cusco">Cusco</option>
+                    <option value="Huancavelica">Huancavelica</option>
+                    <option value="Huanuco">Huanuco</option>
+                    <option value="Ica">Ica</option>
+                    <option value="Junin">Junin</option>
+                    <option value="La Libertad">La Libertad</option>
+                    <option value="Lambayeque">Lambayeque</option>
+                    <option value="Lima">Lima</option>
+                    <option value="Loreto">Loreto</option>
+                    <option value="Madre de Dios">Madre de Dios</option>
+                    <option value="Moquegua">Moquegua</option>
+                    <option value="Pasco">Pasco</option>
+                    <option value="Piura">Piura</option>
+                    <option value="Puno">Puno</option>
+                    <option value="San Martin">San Martin</option>
+                    <option value="Tacna">Tacna</option>
+                    <option value="Tumbes">Tumbes</option>
+                    <option value="Ucayali">Ucayali</option>
+                </select>
+            </div>
+            <div class="dropdown"style="margin-left: -100px;">
+                <select name="destino" id="destinoSelect">
+                    <option value="">Destino</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Ancash">Ancash</option>
+                    <option value="Apurimac">Apurimac</option>
+                    <option value="Arequipa">Arequipa</option>
+                    <option value="Ayacucho">Ayacucho</option>
+                    <option value="Cajamarca">Cajamarca</option>
+                    <option value="Callao">Callao</option>
+                    <option value="Cusco">Cusco</option>
+                    <option value="Huancavelica">Huancavelica</option>
+                    <option value="Huanuco">Huanuco</option>
+                    <option value="Ica">Ica</option>
+                    <option value="Junin">Junin</option>
+                    <option value="La Libertad">La Libertad</option>
+                    <option value="Lambayeque">Lambayeque</option>
+                    <option value="Lima">Lima</option>
+                    <option value="Loreto">Loreto</option>
+                    <option value="Madre de Dios">Madre de Dios</option>
+                    <option value="Moquegua">Moquegua</option>
+                    <option value="Pasco">Pasco</option>
+                    <option value="Piura">Piura</option>
+                    <option value="Puno">Puno</option>
+                    <option value="San Martin">San Martin</option>
+                    <option value="Tacna">Tacna</option>
+                    <option value="Tumbes">Tumbes</option>
+                    <option value="Ucayali">Ucayali</option>
+                </select>
+            </div>
+        </div>
+        
+        <input type="date" name="fecha" id="fechaInput">
+        
+          <!-- Agregar campos de texto para las direcciones -->
+                <input type="text" id="origenInput" placeholder="Dirección de origen">
+                <br> <br>
+                <input type="text" id="destinoInput" placeholder="Dirección de destino"><br>
+                <br> 
+    
+        <button type="button" onclick="enviarWhatsApp()">Buscar</button>
+        <div class="icons">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fab fa-cc-amazon-pay"></i> <!-- Nuevo método de pago -->
+            <!-- Agrega aquí más iconos de tarjetas -->
+        </div>
+    </div>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var toggleFormButton = document.getElementById('toggleForm');
+        var contactForm = document.getElementById('contactForm');
+        var closeButton = document.querySelector('.close-btn');
+    
+        toggleFormButton.addEventListener('click', function() {
+            contactForm.classList.toggle('show');
+        });
+    
+        closeButton.addEventListener('click', function() {
+            contactForm.classList.remove('show');
+        });
+    });
+    
+    function enviarWhatsApp() {
+        var origen = document.getElementById('origenSelect').value;
+        var destino = document.getElementById('destinoSelect').value;
+        var fecha = document.getElementById('fechaInput').value;
+    
+        // Construir el enlace de WhatsApp
+        var enlaceWhatsApp = 'https://api.whatsapp.com/send?phone=51957229989&text=Origen:%20' + origen + '%0A' + 'Destino:%20' + destino + '%0A' + 'Fecha:%20' + fecha;
+    
+        // Redirigir a WhatsApp
+        window.location.href = enlaceWhatsApp;
+    }
+    </script>
+
+    <!-- Preloader Start -->
+    <header>
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-10">
+                            <div class="main-menu black-menu menu-bg-white d-none d-lg-block">
+                                <div class="hamburger hamburger--collapse">
+                                    <div class="hamburger-box">
+                                        <div class="hamburger-inner"></div>
+                                    </div>
+                                </div>
+                                <nav class="hamburger-menu">
+                                    <ul id="navigation">
+                                        <li><a href="index.html">Inicio</a></li>
+                                        <li><a href="./about.html">Acerca</a></li>
+                                        <li><a href="./discover.html">Descubre</a></li>
+                                        <li>
+                                            <a href="./services.html">Servicios</a>
+                                            <ul class="submenu">
+                                              <li><a href="./turismo.html">Servicio Turismo</a></li>
+                                                <li><a href="./carga.html">Servicio de Carga</a></li>
+                                                <li><a href="./ruta.html">Servicio de Ruta</a></li>
+                                                <li><a href="./taxi.html">Servicio de Taxi</a></li>
+                                            </ul>
+                                        </li>
+                                           <li><a href="./contact.html">Contácto</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <main>
+           <!--? Services Area Start -->
+           <section class="service-area pt-150 pb-150">
+            <div class="service-bg"></div>
+            <div class="container">
+                <!-- Section Tittle -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-7 col-lg-8 col-md-11 col-sm-11">
+                        <div class="section-tittle section-tittle3  text-center mb-90">
+                            <span>Nuestros Servicios</span>
+                            <h2>Nos dedicamos a brindar una amplia gama de servicios</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section caption -->
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <img src="./assets/img/gallery/v1.webp" alt="Icono de Transporte" style="width: 180px; height: 180px; display: block; margin: auto;">
+                            </div> 
+                            <br><br>
+                            <div class="service-cap">
+                                <h4><a href="./turismo.html">Servicio de Turismo</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="services-caption active text-center mb-30">
+                            <div class="service-icon">
+                                <img src="./assets/img/gallery/v2.webp" alt="Icono de Transporte" style="width: 180px; height: 180px; display: block; margin: auto;">
+                            </div> 
+                            <br><br>
+                            <div class="service-cap">
+                                <h4><a href="./carga.html">Servicio de Carga</a></h4>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <img src="./assets/img/gallery/v3.webp" alt="Icono de Transporte" style="width: 180px; height: 180px; display: block; margin: auto;">
+                            </div> 
+                            <br><br>
+                            <div class="service-cap">
+                                <h4><a href="./ruta.html">Servicio Especial Ruta</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="services-caption text-center mb-30">
+                            <div class="service-icon">
+                                <img src="./assets/img/gallery/v4.webp" alt="Icono de Transporte" style="width: 180px; height: 180px; display: block; margin: auto;">
+                            </div> 
+                            <br><br>
+                            <div class="service-cap">
+                                <h4><a href="./taxi.html">Servicio de <br>Taxi</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-11 col-sm-11">
+                <div class="section-tittle text-center mb-90">
+                    <span>Redes sociales</span>
+                    <h2>Descubre lo último</h2>
+                </div>
+            </div>
+        </div>     
+<section class="full-width-section">
+    
+    <div class="video-container">
+     <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@perumentors/video/7360824095904173317" data-video-id="7360824095904173317" style="max-width: 325px;min-width: 325px;" > <section> <a target="_blank" title="@perumentors" href="https://www.tiktok.com/@perumentors?refer=embed">@perumentors</a> ¡𝑬𝑳𝑰𝑮𝑬 𝑻𝑼 𝑫𝑬𝑺𝑻𝑰𝑵𝑶 𝒀 𝑽𝑨𝑴𝑶𝑺❗ 🚘𝐕𝐈𝐀𝐉𝐀𝐌𝐎𝐒 𝐂𝐎𝐍𝐓𝐈𝐆𝐎 Salidas diarias a Nivel Nacional - Fines de semana - Transporte a eventos especiales - City tour - Expres  ¡PLANIFICA Y SEPARA TU VIAJE! CONTACTOS: CENTRAL: 957 229 989 CUSCO: 900 880 912 ABANCAY: 900 158 652 <a title="perumentors" target="_blank" href="https://www.tiktok.com/tag/perumentors?refer=embed">#perumentors</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="viralvideo" target="_blank" href="https://www.tiktok.com/tag/viralvideo?refer=embed">#viralvideo</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a>  <a title="apurimac_andahuaylas" target="_blank" href="https://www.tiktok.com/tag/apurimac_andahuaylas?refer=embed">#apurimac_andahuaylas</a> <a title="recursosnaturales" target="_blank" href="https://www.tiktok.com/tag/recursosnaturales?refer=embed">#RecursosNaturales</a> <a title="peruviajes" target="_blank" href="https://www.tiktok.com/tag/peruviajes?refer=embed">#PeruViajes</a> <a title="apurimac" target="_blank" href="https://www.tiktok.com/tag/apurimac?refer=embed">#Apurimac</a> <a title="cusco" target="_blank" href="https://www.tiktok.com/tag/cusco?refer=embed">#Cusco</a> <a title="viaja" target="_blank" href="https://www.tiktok.com/tag/viaja?refer=embed">#viaja</a> <a title="viajesperu" target="_blank" href="https://www.tiktok.com/tag/viajesperu?refer=embed">#viajesperu</a> <a title="apurimac_lima" target="_blank" href="https://www.tiktok.com/tag/apurimac_lima?refer=embed">#apurimac_lima</a> <a target="_blank" title="♬ sonido original - Perumentors" href="https://www.tiktok.com/music/sonido-original-7360824110795328262?refer=embed">♬ sonido original - Perumentors</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+    <img class="background-image" src="./assets/img/gallery/plaza.jpg" alt="Imagen de ancho completo">
+  </section>
+        <!-- Services Area End -->
+     <!--? Services Area Start -->
+     <section class="service-area pt-150 pb-150">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-7 col-lg-8 col-md-11 col-sm-11">
+                    <div class="section-tittle text-center mb-90">
+                        <span>Servicios</span>
+                        <h2>Recorre todo el perú con nosotros</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section caption -->
+            <div class="row justify-content-center">
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                            <div class="service-img">
+                                <img src="./assets/img/depa/amazonas.png" alt="Amazonas">
+                            </div>
+                            <div class="service-title">
+                                <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Amazonas</span></h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                            <div class="service-img">
+                                <img src="./assets/img/depa/ancash.png" alt="Áncash">
+                            </div>
+                            <div class="service-title">
+                                <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Áncash</span></h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                            <div class="service-img">
+                                <img src="./assets/img/depa/apurimac.png" alt="Apurímac">
+                            </div>
+                            <div class="service-title">
+                                <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Apurímac</span></h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                            <div class="service-img">
+                                <img src="./assets/img/depa/arequipa.png" alt="Arequipa">
+                            </div>
+                            <div class="service-title">
+                                <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Arequipa</span></h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Repite este bloque para los demás departamentos -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                            <div class="service-img">
+                                <img src="./assets/img/depa/ayacucho.png" alt="Ayacucho">
+                            </div>
+                            <div class="service-title">
+                                <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Ayacucho</span></h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/cajamarca.png" alt="Cajamarca">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Cajamarca</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/callao.png" alt="Callao">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Callao</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/cuzco.png" alt="Cuzco">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Cuzco</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/huancavelica.png" alt="Huancavelica">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Huancavelica</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/huanuco.png" alt="Huánuco">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Huánuco</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/ica.png" alt="Ica">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Ica</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/junin.png" alt="Junín">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Junín</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/lalibertad.png" alt="La Libertad">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">La Libertad</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                    
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/lamba.png" alt="Lambayeque">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Lambayeque</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/limametro.png" alt="Lima Metropolitana">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Lima Metropolitana</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/limaprov.png" alt="Lima Provincias">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Lima Provincias</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/loreto.png" alt="Loreto">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Loreto</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/madrededios.png" alt="Madre de Dios	">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Madre de Dios	</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/moquegua.png" alt="Moquegua">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Moquegua</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/pasco.png" alt="Pasco">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Pasco</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/Piura.png" alt="Piura">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Piura</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/puno.png" alt="Puno">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Puno</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/sanmartin.png" alt="San Martín	">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">San Martín	</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/tacna.png" alt="Tacna">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Tacna</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/tumbes.png" alt="Tumbes">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Tumbes</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-9">
+                    <div class="service-box text-center mb-30">
+                        <a href="https://wa.me/51957229989" target="_blank">
+                        <div class="service-img">
+                            <img src="./assets/img/depa/ucayali.png" alt="Ucayali">
+                        </div>
+                        <div class="service-title">
+                            <h4><span style="color: white; font-size: 34px; text-shadow:2px 2px 4px  rgb(193, 161, 0);">Ucayali</span></h4>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <!-- Puedes repetir este bloque para más servicios -->
+            </div>
+        </div>
+    </section>
+    <div class="slider-area2a">
+        <div class="slider-height2 d-flex align-items-center">
+            <img src="./assets/img/hero/travel.png" alt="Descripción de la imagen">
+        </div>
+    </div>
+    <br>    <br>    <br>    <br>    <br>    <br>    <br>  
+ 
+
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding section-bg" data-background="assets/img/gallery/footer_bg.png">
+            <div class="container">
+                <!-- Footer Top -->
+                <div class="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                    </div>
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p>Brindamos una amplia gama de servicios diseñados para hacer que tus viajes sean seguros, cómodos y memorables.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Enlaces</h4>
+                                    <ul>
+                                        <li><a href="./about.html">Acerca</a></li>
+                                        <li><a href="./discover.html"> Descubre</a></li>
+                                        <li><a href="./services.html"> Servicios</a></li>
+                                        <li><a href="./contact.html"> Contácto</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Relacionado</h4>
+                                    <ul>
+                                        <li><a href="./about.html">Viajes Nacionales</a></li>
+                                        <li><a href="./contact.html">Oficinas Virtuales</a></li>
+                                        <li><a href="./discover.html">Novedades</a></li>
+                                        <li><a href="./discover.html">Beneficios</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Soporte</h4>
+                                    <ul>
+                                        <li><a href="./about.html">Información</a></li>
+                                        <li><a href="./discover.html">Descubre</a></li>
+                                        <li><a href="./discover.html">Novedades</a></li>
+                                        <li><a href="./about.html">Beneficios</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-8 col-md-7">
+                            <div class="footer-copy-right">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos Reservados | Desarrollado por <a href="https://lysoftdigital.com/" target="_blank">Lysoft Digital</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>                   
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-4 col-md-5">
+                            <div class="footer-copy-right f-right">
+                                <!-- social -->
+                                <div class="footer-social">
+                                    <a href="https://www.youtube.com/channel/UCBRWmJjW2GdOnbGPS1j4e-A"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=61556515059803"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/perumentors/?next=%2F"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.tiktok.com/@perumentors"><i class="fab fa-tiktok"></i></a>
+
+                            </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              var myLandbot = new Landbot.Livechat({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2154732-JZ073H9J0X1JLQ6X/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+<script>
+    window.addEventListener('mouseover', initLandbot, { once: true });
+    window.addEventListener('touchstart', initLandbot, { once: true });
+    var myLandbot;
+    function initLandbot() {
+      if (!myLandbot) {
+        var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+        s.addEventListener('load', function() {
+          var myLandbot = new Landbot.Livechat({
+            configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2154732-JZ073H9J0X1JLQ6X/index.json',
+          });
+        });
+        s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+    }
+    </script>
+	<a href="https://wa.me/51957229989" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp icono"></i>
+	</a>
+    <!-- JS here -->
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- Date Picker -->
+    <script src="./assets/js/gijgo.min.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    
+    <!-- counter , waypoint,Hover Direction -->
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.countdown.min.js"></script>
+    <script src="./assets/js/hover-direction-snake.min.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    
+    <!-- Jquery Plugins, main Jquery -->	
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <audio autoplay loop>
+        <source src="./assets/music/musica.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    </body>
+</html>
